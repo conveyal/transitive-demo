@@ -1,4 +1,4 @@
-import Transitive from "transitive-js"
+Transitive = require("transitive-js");
 
 // create the transitive object
 var transitive = new Transitive({
@@ -53,9 +53,9 @@ function setRenderer(renderer) {
 }
 
 document.getElementById('default-renderer').onclick = function(event) {
-  setRenderer('default')
+  setRenderer('default');
 };
 
 document.getElementById('wireframe-renderer').onclick = function(event) {
-  setRenderer('wireframe')
+  setRenderer('wireframe');
 };
